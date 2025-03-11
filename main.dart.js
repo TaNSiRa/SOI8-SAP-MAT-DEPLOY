@@ -87679,7 +87679,7 @@ var $async$wM=A.N(function(c,d){if(c===1)return A.J(d,r)
 while(true)switch(s){case 0:A.MH($.mL.au())
 q=t.z
 s=2
-return A.Q(A.q0(null).apN(0,"http://172.23.10.51:14014/soi8/fetchOrder",null,A.B(q,q),null,A.aDR("GET",null),null,q),$async$wM)
+return A.Q(A.q0(null).apN(0,"http://172.18.40.201:14014/soi8/fetchOrder",null,A.B(q,q),null,A.aDR("GET",null),null,q),$async$wM)
 case 2:p=d
 q=p.c
 if(q===200){A.dp(q)
@@ -87754,13 +87754,13 @@ p=t.z
 s=$.aAd==="SAP"?2:4
 break
 case 2:s=5
-return A.Q(A.q0(null).oF("http://172.23.10.51:14014/soi8/compareSCADA",A.ab(["dataOrder",$.OB],q,q),p),$async$rR)
+return A.Q(A.q0(null).oF("http://172.18.40.201:14014/soi8/compareSCADA",A.ab(["dataOrder",$.OB],q,q),p),$async$rR)
 case 5:o=d
 A.dp("Sent complete")
 s=3
 break
 case 4:s=6
-return A.Q(A.q0(null).oF("http://172.23.10.51:14014/soi8/orderDetail",A.ab(["dataOrder",$.OB],q,q),p),$async$rR)
+return A.Q(A.q0(null).oF("http://172.18.40.201:14014/soi8/orderDetail",A.ab(["dataOrder",$.OB],q,q),p),$async$rR)
 case 6:o=d
 A.dp("Sent complete")
 case 3:q=o.c
@@ -87780,12 +87780,12 @@ p=t.z
 s=$.aAd==="SAP"?2:4
 break
 case 2:s=5
-return A.Q(A.q0(null).oF("http://172.23.10.51:14014/soi8/createOrder",A.ab(["dataOrder",$.af_],q,q),p),$async$rS)
+return A.Q(A.q0(null).oF("http://172.18.40.201:14014/soi8/createOrder",A.ab(["dataOrder",$.af_],q,q),p),$async$rS)
 case 5:A.dp("Sent complete")
 s=3
 break
 case 4:s=6
-return A.Q(A.q0(null).oF("http://172.23.10.51:14014/soi8/sendOrderToSAP",A.ab(["dataOrder",$.af_],q,q),p),$async$rS)
+return A.Q(A.q0(null).oF("http://172.18.40.201:14014/soi8/sendOrderToSAP",A.ab(["dataOrder",$.af_],q,q),p),$async$rS)
 case 6:A.dp("Sent complete")
 case 3:return A.K(null,r)}})
 return A.L($async$rS,r)},
@@ -88180,7 +88180,7 @@ while(true)switch(s){case 0:$.OB=B.aE.o1(q.a.fz(),null)
 p=t.N
 o=q.b
 s=2
-return A.Q(A.q0(null).oF("http://172.23.10.51:14014/soi8/DeleteOrder",A.ab(["dataOrder",$.OB],p,p),t.z),$async$$0)
+return A.Q(A.q0(null).oF("http://172.18.40.201:14014/soi8/DeleteOrder",A.ab(["dataOrder",$.OB],p,p),t.z),$async$$0)
 case 2:if(b.c===200){A.e1(o,!1).d9()
 J.de(A.eX($.mL.au(),!1,t.Hx),new A.js())}else{A.dp("Delete Fail")
 A.e1(o,!1).d9()}return A.K(null,r)}})
